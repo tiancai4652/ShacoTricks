@@ -19,7 +19,6 @@ namespace ShacoTricks.DataBase.Sqlite.Tests
         public void DataMergeRunTest()
         {
             string source = @"C:\Users\zr644\Desktop\Additel LogII\DataV2.db3";
-            string source1 = @"C:\Users\zr644\Desktop\Additel LogII\DataV2.db3";
             string target = @"C:\Users\zr644\Desktop\Additel LogII Wireless\DataV2.db3";
             DataMerge dm = new DataMerge(source, target);
             bool a=dm.DataMergeRun();
