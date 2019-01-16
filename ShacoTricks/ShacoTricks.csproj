@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="DataBase\Sqlite\DataMerge.cs" />
+    <Compile Include="DataBase\Sqlite\Ado.Net\DataMerge.cs" />
     <Compile Include="DataBase\Sqlite\SqliteTricks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
