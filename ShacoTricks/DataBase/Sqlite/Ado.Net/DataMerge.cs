@@ -7,6 +7,8 @@ using System.Text;
 
 namespace ShacoTricks.DataBase.Sqlite
 {
+    //Target:将SqliteA的数据迁移到Sqlite.B上
+
     //思路转自：http://www.cnblogs.com/welhzh/p/4232107.html
 
     //SQL:
