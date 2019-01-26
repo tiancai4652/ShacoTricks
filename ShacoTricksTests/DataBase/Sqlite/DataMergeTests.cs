@@ -20,7 +20,7 @@ namespace ShacoTricks.DataBase.Sqlite.Tests
         {
             string source = @"C:\Users\zr644\Desktop\Additel LogII\DataV2.db3";
             string target = @"C:\Users\zr644\Desktop\Additel LogII Wireless\DataV2.db3";
-            DataMerge dm = new DataMerge(source, target);
+            SqliteDataMerge dm = new SqliteDataMerge(source, target);
             bool a=dm.DataMergeRun();
         }
     }

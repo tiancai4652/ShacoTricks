@@ -21,10 +21,10 @@ namespace ShacoTricks.DataBase.Sqlite
     /// <summary>
     /// 两个Sqlite数据库的数据合并到一起
     /// </summary>
-    public class DataMerge
+    public class SqliteDataMerge
     {
 
-        public DataMerge(string source, string target)
+        public SqliteDataMerge(string source, string target)
         {
             SourceDBFile = source;
             TargetDBFile = target;
